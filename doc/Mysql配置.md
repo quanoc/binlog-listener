@@ -12,3 +12,14 @@ show variables like 'log_%';
 show master logs;
 
 ### 4. 查看master状态，即最后(最新)一个binlog日志的编号名称，及其最后一个操作事件pos结束点(Position)值
+
+
+## mysql 安装
+
+apt install mysql-server-5.7
+
+安装完成之后
+
+- 创建用户并授权
+- 开启binlog日志
+- 授予复制权限(具体什么含义)
