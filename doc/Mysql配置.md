@@ -4,6 +4,14 @@ grant REPLICATION CLIENT on *.* to 'qsf'@'%';
 grant REPLICATION SLAVE on *.* to 'qsf'@'%';
 flush privileges;
 
+- 应用级别授权
+
+```mysql
+grant all privileges on pig.* to qsf@'%' identified by '1234';
+flush privileges;
+```
+
+
 ### 2. 查看是否开启binlog
 
 show variables like 'log_%'; 
