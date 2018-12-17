@@ -1,5 +1,5 @@
 language: java
-script: mvn -Pitest  clean package
+script: mvn clean package
 notifications:
   # Email notifications are disabled to not annoy anybody.
   # See http://about.travis-ci.org/docs/user/build-configuration/ to learn more
