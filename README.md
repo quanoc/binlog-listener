@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/quantumcs/binlog-listener.svg?branch=master)](https://travis-ci.com/quantumcs/binlog-listener)
+
 
 ## binlog-listener实战
 [mysql-binlog-connector-java](https://github.com/shyiko/mysql-binlog-connector-java)
